@@ -1,0 +1,172 @@
+/* =================================== */
+/* Header_Secton */
+/* =================================== */
+.header_section{
+    background: #101446;
+    padding: 15px  0;
+    text-align: center;
+}
+.header_section img{
+    width: 80px ;
+    height: auto;
+    
+}
+.header_menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header_menu ul li a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	padding: 0px 20px;
+	position: relative;
+	top: 12px;
+    transition: all.5s;
+}
+.header_menu ul li a:hover{
+    color: rgb(180, 176, 176);
+}
+/* =================================== */
+/* Banner_Secton */
+/* =================================== */
+.banner_section{
+    background-image: url(img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+    position: relative;
+    z-index: 1;
+    
+}
+.banner_Text h2{
+    font-weight: 600;
+}
+.banner_Text p {
+	font-size: 19px;
+}
+.banner_Text button{
+    background-color:#337ab7;
+    border-style: none;
+    font-family: sans-serif;
+    
+}
+.banner_section::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.432);
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+/* =================================== */
+/* Teem_Secton */
+/* =================================== */
+.teem_section{
+    background:#bac1f3 ;
+}
+.teem_title h2{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.teem_item span{
+    color: #6b675e;
+    font-family: sans-serif;
+}
+.teem_item p{
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.teem_item button{
+    background-color: #337ab7;
+    margin-bottom: 50px;
+    border-style: none;
+    font-family: sans-serif;
+}
+/* =================================== */
+/* About_Secton */
+/* =================================== */
+.about_section{
+    background:#c2d4ea ;
+    padding: 100px 0;
+}
+.about_title h1 {
+	font-size: 50px;
+	margin-bottom: 50px;
+    font-family: sans-serif;
+}
+.img_item img {
+	margin-right: 90px;
+	margin-top: 5px;
+}
+.about_text p {
+	margin-bottom: 9px;
+	color: #3e4b57;
+    font-family: sans-serif;
+}
+.text-left.p_div {
+	margin-top: 20px;
+	color: #3e4b57;
+    font-family: sans-serif;
+}
+.About_me{
+    width: 85%;
+}
+.About_me p {
+	color: #3e4b57;
+    font-family: sans-serif;
+}
+.About_me .big_div {
+	font-size: 20px;
+}
+/* =================================== */
+/* Contact_Secton */
+/* =================================== */
+.contact_section{
+    background:#f5f5f5 ;
+    padding: 60px 0;
+}
+.contact_title h2 {
+	text-align: center;
+	font-size: 47px;
+	margin-bottom: 70px;
+    font-family: sans-serif;
+}
+.contact_form label{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color:rgba(17, 17, 17, 0.705);
+    
+}
+.contact_form button{
+    background: #5bc0de;
+    border-style: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.contact_form textarea{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/* =================================== */
+/* Footer_Secton */
+/* =================================== */
+.footer_section{
+    background: #0062d3;
+    padding: 20px 0;
+}
+.footer_section p{
+margin-bottom: 0;
+font-size: 17px;
+font-family: sans-serif;
+}
+.footer_section span{
+    font-weight: 700;
+}
+/* =================================== */
+/* THE END */
+/* =================================== */
